@@ -1,0 +1,622 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding-left: 2px;
+}
+
+img{
+    border-radius: 12px;
+}
+
+nav{
+    display: flex;
+    padding-top: 2rem;
+    gap: 20rem;
+}
+nav ul{
+    display: flex;
+    padding-top: 1rem;
+    gap: 2rem;
+}
+.academy{
+    display: flex;
+    padding-left: 12.5rem;
+    gap: 2.5rem;
+}
+
+.profile{
+    display: flex;
+    gap: 5rem;
+}
+.profile_search_bar{
+    display: flex;
+}
+
+.profile_search_bar input{
+    border: none;
+    width: 80%;
+    height: 4rem;
+}
+
+.profile_search_bar ion-icon{
+    border: none;
+    height: 4rem;
+}  
+
+.profile_pp{
+    display: flex;
+    gap: 2rem;
+}
+
+.profile_pp ion-icon{
+    color: rgb(189, 70, 189);
+}
+
+main{
+    padding-left: 12.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_categeories{
+    display: flex;
+    gap: 3rem;
+}
+
+.main_categeories div{
+    padding: 1.5rem 1.5rem;
+}
+
+.main_page{
+    display: flex;
+}
+.main_page_text{
+    width: 40%;
+    padding-top: 10rem;
+}
+
+.main_page h2{
+    font-family: Roboto;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 4.25rem;
+    text-transform: capitalize;
+}
+
+.main_page_text button{
+    padding: 16px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+}
+
+.main_page_second{
+    display: flex;
+    flex-direction: column;
+    padding-left: 16rem;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+}
+
+.main_page_second h2{
+    font-family: Roboto;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 4.25rem;
+    text-transform: capitalize;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.main_page_second input{
+    border: none;
+    width: 20%;
+    height: 2rem;
+}
+
+.main_page_second ion-icon{
+    border: none;
+    
+} 
+.main_page_second button{
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+} 
+
+.main_page_second_search {
+    padding-left: 27rem;
+    display: flex;
+}
+
+.courses{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 12.5rem;
+    gap: 2rem;
+}
+
+.courses_nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.courses button{
+    border: none;
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem; 
+    text-transform: capitalize;
+}
+
+.courses_card {
+    width: 90%;
+    height: 50rem;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+}
+
+.courses_card_lesson{
+    color: #444544;
+}
+
+
+.courses_card div div{
+    display: flex;
+    gap: 5px;
+}
+
+.courses_card button{
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.instructors{
+    display: flex;
+    gap: 7.5rem;
+    padding-left: 12.5rem;
+}
+
+.instructors_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.instructors_text h2{
+    font-family: Roboto;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 4.25rem;
+    text-transform: capitalize;
+}
+
+.instructors_text p{
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; /* 142.857% */
+    letter-spacing: 0.01563rem;
+    text-transform: capitalize;
+}
+
+.instructors_text button{
+    padding: 1rem 1.5rem;
+    border: none;
+    background-color: black;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.instructors_card{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+}
+
+.instructors_card div div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.your_courses_card div{
+    display: flex;
+}
+
+.your_courses_nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12.5rem;
+    padding-right: 12.5rem;
+    padding-top: 2.5rem;
+}
+
+.your_courses_nav button{
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(192, 188, 188);
+    color: black;
+}
+
+.card_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card_box button{
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+}
+
+.your_courses_card{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    padding-left: 12.5rem;
+}
+
+.card_range{
+    display: flex;
+    flex-direction: column;
+}
+.card_range div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    background-color: #f6f7fe;
+    padding: 10rem 12.5rem;
+    gap: 10em;
+    background: url("../img/background\ \(1\).svg") no-repeat;
+}
+.search_bar{
+    padding: 0.3rem;
+    padding-right: 0.5rem;
+    background-color: white;
+    display: flex;
+    gap: 5rem;
+}
+
+.search_bar input{
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color:white;
+    color: aliceblue;    
+}
+
+.search_bar button{
+    padding: 16px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.top_courses{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10rem;
+    gap: 2rem;
+    padding-top: 2.5rem;
+}
+
+.top_courses_nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.top_courses button{
+    border: none;
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem; 
+    text-transform: capitalize;
+}
+
+.top_courses_card {
+    width: 90%;
+    height: 28rem;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.top_courses_card_lesson{
+    color: #444544;
+}
+
+
+.top_courses_card div div{
+    display: flex;
+    gap: 5px;
+}
+
+.top_courses_card button{
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+footer{
+    padding-left: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer_first{
+    display: flex;
+    background: url("../img/footerback.svg")no-repeat;
+    padding-top: 2rem;
+    gap: 5rem;
+}
+.footer_first p{
+    width: 80%;
+}
+
+.footer_second{
+    display: flex;
+    gap: 8rem;
+    
+}
+.footer_second ul{
+    padding-top: 2rem;
+}
+ .footer_second ul li{
+    padding-top: 0.5rem;
+ }
+
+
+ .footer_second_last h4,p{
+    padding-top: 1.4rem;
+ }
+ 
+
+ .footer_thrid{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+ }
+
+
+@media (max-width: 576px) {
+    nav{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        gap: 1rem;
+    }
+
+
+    .academy{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .academy h1{
+        text-align: center;
+    }
+
+    main{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .main_categeories{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding-left: 0;
+    }
+
+    .main_page{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding-left: 0;
+    }
+
+    .main_page_img{
+        width: auto;
+        height: auto;
+    }
+    .main_page_img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .main_page_second{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .main_page_second div{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .main_page_text h2{
+        height: auto;
+        width: auto;
+        font-size: 1rem;
+        padding-left: 5rem;
+    }
+
+    .main_page_second h2{
+        height: auto;
+        width: auto;
+        font-size: 1rem;
+        padding-left: 5rem;
+    }
+
+    .courses{
+      padding-left: 0;
+    }
+    .courses_nav{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2.5rem;
+    }
+    .courses_card {
+        height: auto;
+        width: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 25% 25% 25%;
+        gap: 0.25rem;
+    }
+
+    .instructors{
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .instructors_text{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2.5rem;
+        padding-top: 1rem;
+    }
+    .instructors_card{
+        height: auto;
+        width: auto;
+        display: grid;
+        flex-direction: column;
+    }
+    
+    .your_courses{
+        padding-left: 0;
+    }
+    .your_courses_nav{
+          height: auto;
+          width: auto;
+          display: flex;
+          flex-direction: column;
+          padding-left: 0;
+    }
+
+    .your_courses_card {
+        height: auto;
+        width: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        padding-left: 0;
+    }
+
+    .top_courses{
+        padding-left: 0;
+    }
+    .top_courses_nav{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2.5rem;
+    }
+    .top_courses_card {
+        height: auto;
+        width: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        gap: 0.25rem;
+    }
+
+    footer{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .footer_first{
+        height: auto;
+        width: auto;
+        display: flex;
+        padding-left: 0;
+    }
+
+    .footer_second{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .search{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        gap: 0;
+        padding-bottom: 2rem;
+    }
+
+    
+}
